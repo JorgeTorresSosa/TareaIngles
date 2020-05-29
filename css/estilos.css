@@ -9,6 +9,26 @@
   font-style: normal;
   font-display: block;
 }
+.icon-arrow-up2:before {
+  content: "\ea3a";
+  margin-top: 5px;
+}
+.ir-arriba{
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  padding-bottom: -10px;
+  display: inline-block;
+  color: white;
+  background-color:#602080;
+  line-height: 40px;
+  text-align: center;
+  position: fixed;
+  z-index: 4;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
@@ -34,6 +54,22 @@ body {
   margin: 0;
 }
 
+.indice ol li{
+  
+  margin-bottom: 10px;
+  margin-left: 25px;
+}
+.indice ol{
+  margin-top: -20px;
+  margin-bottom: -40px;
+}
+
+.indice a{
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
 .portfolio{
   background: #fafafa;
  padding: 20px;
@@ -76,12 +112,10 @@ body {
 {
   margin: 10px 0;
 }
+
 .proyect-description{
   font-size: 20px;
 }
-/* .project-date{
-
-} */
 
 .project-text{
   width: 500px;

@@ -54,12 +54,12 @@ body {
   margin: 0;
 }
 
-.indice ol li{
+.indice ul li{
   
   margin-bottom: 10px;
   margin-left: 25px;
 }
-.indice ol{
+.indice ul{
   margin-top: -20px;
   margin-bottom: -40px;
   list-style: none;

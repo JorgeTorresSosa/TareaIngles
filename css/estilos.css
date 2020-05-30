@@ -62,6 +62,7 @@ body {
 .indice ol{
   margin-top: -20px;
   margin-bottom: -40px;
+  list-style: none;
 }
 
 .indice a{
@@ -93,7 +94,7 @@ body {
 }
 
 .project-subtitle{
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .project strong{
